@@ -1,0 +1,67 @@
+list of common superuser (root) commands in Linux along with their definitions
+
+1. sudo - Allows a permitted user to execute a command as the superuser or another user.
+    Example: sudo apt-get update
+
+2.su - Switches the current user to another user. By default, it switches to the root user
+    Example: su
+
+3.passwd - Used to change the user password. When used by the root user, it can change the password of any user.
+    Example: passwd username
+
+4.chown - Changes the ownership of files or directories.
+    Example: chown user:group file.txt
+
+5.chmod - Changes the permissions of a file or directory
+    Example: chmod 755 file.txt
+
+6.visudo - Edits the /etc/sudoers file in a safe way to configure sudo privileges
+    Example: visudo 
+
+7.useradd - Creates a new user account
+    Example: useradd username
+
+8.usermod - Modifies a user account, such as changing the group membership or shell.
+    Example: usermod -aG groupname username
+
+9.userdel - Deletes a user account and associated file
+    Example: Deletes a user account and associated file
+
+10.service - Manages services on a system, such as starting, stopping, or restarting them.
+    Example: service apache2 start
+
+11.systemctl - Controls the systemd system and service manager. It can start, stop, enable, disable services, and more.
+    Example: systemctl restart apache2
+
+12.reboot - Reboots the system.
+    Example: Reboot
+
+13.shutdown -Shuts down or reboots the system.
+    Example: shutdown -h now 
+
+14.apt-get -Package manager for Debian-based systems. Used for installing, updating, and removing packages.
+    Example: sudo apt-get install package-name
+
+15.fdisk - Partition table manipulator for Linux. Used to create, delete, and modify partitions on a disk.
+    Example:  fdisk /dev/sda
+
+16.mkfs - Used to create a filesystem on a device.
+    Example: mkfs.ext4 /dev/sda1
+
+17.mount - Mounts a filesystem to a specified directory
+    Example: mount /dev/sda1 /mnt
+
+18.umount - Unmouunts a mounted filesystem 
+    Example: umount /mnt
+
+19.kill - Sends a signal to a process, often to terminate it.
+    Example: kill 1234  
+
+20.netstat -Displays network connections, routing tables, and interface statistics.
+    Example: netstat -tuln
+
+21.iptables - Manages the Linux kernel firewall rules.
+    Example: iptables -L
+
+22.firewalld - Manages firewall with firewalld service in Linux.
+    Example
