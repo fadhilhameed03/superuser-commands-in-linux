@@ -64,4 +64,28 @@ list of common superuser (root) commands in Linux along with their definitions
     Example: iptables -L
 
 22.firewalld - Manages firewall with firewalld service in Linux.
-    Example
+    Example: firewall-cmd --state
+
+23.scp - Securely copies files between hosts over a network.
+    Example: scp file.txt user@remote:/path/to/destination
+
+24.ss - Another tool to investigate sockets, similar to netstat, but more efficient.
+    Example: ss -tuln
+
+25.hostnamectl - Used to set the system hostname and related settings.
+    Example: hostnamectl set-hostname newhostname
+
+26.grep - Searches text using patterns.
+    Example: grep "search_term" /path/to/file
+
+27.journalctl - Views logs collected by systemd
+    Example: journalctl -xe
+
+28.dmesg - Prints kernel ring buffer messages, often used for debugging hardware issues.
+    Example: dmesg | grep error
+
+29.blkid - Locates and displays block device attributes, including the UUIDs of filesystems.
+    Example: blkid /dev/sda1
+
+30.sysctl - Modifies kernel parameters at runtime.
+    Example: sysctl -w net.ipv4.ip_forward=1
